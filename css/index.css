@@ -1,0 +1,394 @@
+/*@font-face {
+  font-family: Oswald-Regular;
+  src: url('../fonts/oswald/Oswald-Regular.ttf');
+}
+
+@font-face {
+  font-family: Oswald-Medium;
+  src: url('../fonts/oswald/Oswald-Medium.ttf');
+}
+
+@font-face {
+  font-family: Oswald-Bold;
+  src: url('../fonts/oswald/Oswald-Bold.ttf');
+}
+*/
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*body {
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+}*/
+body, html {
+    height: 100%;
+    font-family: Oswald-Regular, sans-serif;
+}
+
+br.clear{
+    clear: both;
+}
+/*------------------------------------------------------ navigation bar ---*/
+.navbar {
+    background:#222629;
+}
+
+.nav-link,.navbar-brand {
+    color: #9F9F9F;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+/*------------------------------------------------------------ header section ---*/
+.ad-container{
+/*    height: 280px;
+    max-height:
+    display: block;
+    position: absolute;*/
+}
+.ad-h{
+    /*color: #450414;*/
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+.ad-head{
+    width: 100%;
+    min-height: 100px;
+    background-color: transparent;
+    margin: 0 auto;
+
+}
+.ad-h{
+    padding-top: 10px;
+    /*color: black;*/
+    font-weight: bold;
+    /*font-size: 50px;*/
+}
+.logIn{
+    color: green;
+}
+.logOut{
+    color: red;
+}
+#searchBtn:focus{
+    outline: none;
+}
+#sellBtn:focus{
+    outline: none;
+
+}
+.header {
+    background-image: url('../images/header-background5.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    max-height: 630px;
+
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+.overlay2 {
+    /*min-height: 100%;*/
+    min-width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    /*height: 250px;*/
+}
+
+
+/*-------------------------------------------------------------- search box styles ---*/
+
+#cars {
+    width: 100%;
+    border: none;
+
+}
+#cars select:focus {
+    outline-color: transparent;
+}
+.search-container {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 992px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.search-box {
+    transform: translate( 0%, 20%);
+}
+.search-box2 {
+    transform: translate( 0%, 40%);
+}
+
+.search-form-header h2 {
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-form-box {
+    border: 1px solid white;
+    border-radius: 8px;
+    min-height: 150px;
+    left: 50%;
+    /*position: absolute;*/
+    top: 45%;
+    padding: 20px 30px;
+    text-align: center;
+    display: block;
+    background: rgba(0,0,0,.25);
+}
+
+.search-form-submit {
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+}
+
+.submit-button {
+    cursor: pointer;
+    min-width: 200px;
+    /*height: 37px;*/
+    font-size: 16px;
+    padding: 15px 20px;
+    color: #fff;
+    position: relative;
+    border: none;
+    z-index: 20;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none !important;
+    background-color: #007cc2;
+    border-radius: 50px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.submit-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+
+}
+.submit-button span:after {
+
+    /*content: '\00bb';*/
+    content: '\26D0';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.submit-button:hover span {
+    padding-right: 25px;
+}
+.submit-button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+.search-form-box-item {
+
+    width: 33.33%;
+    margin-top: 15px !important;
+    float: left;
+    position: relative;
+    padding-left: 15px;
+}
+
+.search-form-box-item-inner-new {
+    clear: left;
+    padding-left: 0;
+}
+
+.search-form-box-item-inner {
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    display: block;
+}
+
+/*.search-form-box-item-inner input {
+    border: none;
+    position: relative;
+    margin-right: 20px;
+}
+
+.search-form-box-item-inner input:focus {
+    outline-color: transparent;
+}*/
+
+.search-form-box-footer {
+    font-size: 12px;
+    color: #007cc2;
+    margin-top: 11px !important;
+    padding-left: 0;
+    width: 100% !important;
+    position: relative;
+    float: left;
+}
+.search-form-box-footer a {
+    cursor: pointer;
+    text-decoration: none;
+}
+select:focus{
+
+    outline: none;
+
+
+}
+select {
+    width: 100%;
+    border-color: inherit;
+}
+.search-form-box-item-inner:hover {
+    box-shadow: 0 0 10px rgba(17, 31, 217, 1);
+    transition: all 200ms ease-out;
+}
+
+.logIn{
+    color: green;
+}
+.logOut{
+    color: red;
+}
+/*------------------------------------------------------ container section ---*/
+
+
+
+.container-header {
+    margin-top: 20px;
+    /*display: block;*/
+    position: relative;
+    float: left;
+    display: inline-block !important;
+}
+.header-title h3 {
+    display: inline-block !important;
+}
+
+
+/*------------------------------------------------------ ad container  ---*/
+
+.ad-container {
+    background-image: url('../images/ddd3333.jpg');
+    background-size: cover;
+    background-position: center;
+
+    height: 270px;
+    display: block;
+    background-attachment: fixed;
+    /*background-color: #222629;*/
+}
+.ad-box {
+    border: 1px solid white;
+    border-radius: 8px;
+    min-height: 100px;
+    left: 50%;
+    /*position: absolute;*/
+    top: 45%;
+    padding: 20px 30px;
+    text-align: center;
+    display: block;
+    background: rgba(0,0,0,.5);
+}
+.ad-submit {
+    margin-top: 8px;
+    display: block;
+    text-align: center;
+}
+/*------------------------------------------------------ footer section ---*/
+.page-footer {
+    margin-bottom: 0;
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 15px;
+}
+.footer-copyright {
+    color: #666;
+    padding: 10px 0;
+}
+
+.footer-copyright a {
+    text-decoration: none;
+    color: #007cc2;
+}
+
+.footer-icons {
+    text-align: center;
+}
+
+.footer-icons ul {
+    /*display: inline-block;*/
+    display: block;
+    padding-left: 0;
+    margin-bottom: 0;
+
+}
+
+
+.footer-icons ul li {
+    display: inline-block;
+    margin-top: 10px;
+
+}
+
+
+.footer-icons ul li a {
+    border: 1px solid #007cc2;
+    color: #007cc2;
+    display: block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 38px;
+    margin-right: 5px;
+    text-align: center;
+    width: 40px;
+    border-radius: 50%;
+    transition: all 0.4s linear 0s;
+}
+
+.footer-icons ul li a:hover {
+    background: #007cc2;
+    border: 1px solid #007cc2;
+    color: #fff;
+}
+
+
+/*search result page*/
+
+

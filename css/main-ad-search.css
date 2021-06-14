@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.opts1-list {
+    /*background-color: #0F0C29;*/
+    min-height: 100%;
+}
+
+
+.cont22 {
+    /*background-color: red;*/
+    min-height: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+}
+.cont33 {
+    padding: 20px;
+}
+#itemsShow{
+    text-transform: capitalize;
+}

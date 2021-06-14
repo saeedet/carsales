@@ -1,0 +1,203 @@
+label{
+    text-transform: capitalize;
+}
+html {
+  scroll-behavior: smooth;
+}
+#backToTop{
+    display: none;
+    /*display: block;*/
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background-color: #ff6333;
+    bottom: 30px;
+    right: 20px;
+    border-radius: 50%;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    opacity: .8;
+}
+#backToTop:hover{
+    opacity: 1;
+
+}
+#tb_count{
+    font-weight: bold;
+
+}
+
+span.qnt {
+
+    border-radius: 4px;
+    float: right;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    background-color: #e6edf7;
+
+}
+span.qnt2 {
+    border-radius: 50%;
+    float: right;
+    height: 21px;
+    width: 21px;
+    text-align: center;
+    background-color: #e6edf7;
+    font-size: 14px;
+}
+div.btnSticky {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 10px;
+    margin:  0 auto;
+
+}
+button#reset,button#filter{
+    padding: 5px;
+    box-shadow: -1px 6px 5px #6b6b6b;
+    transform: translateY(4px);
+}
+button#reset:active,button#filter:active{
+    box-shadow: 0px 0px 5px #666;
+    transform: translateY(2px);
+}
+button#reset{
+    width: 32%;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    overflow: hidden;
+}
+
+button#reset:active:after, button#filter:active:after{
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+button#reset:focus,button#filter:focus {
+    outline: none;
+}
+button#filter{
+    width: 58%;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+button+button{
+    margin-left: 15px;
+}
+#filter span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    background-color: transparent;
+}
+#filter span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#filter:hover span {
+    padding-right: 25px;
+}
+
+#filter:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+label[for=suv]{
+    text-transform: uppercase;
+}
+a:hover{
+    text-decoration: none;
+}
+.autocomplete-items {
+    position: relative;
+    bottom: 12px;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+#suggestion-list{
+    float:left;
+    list-style:none;
+    margin-top:12px;
+    margin-right: 20px;
+    padding:0;
+    width:90%;
+    left: -1px;
+    position: absolute;
+}
+
+
+#suggestion-list li{
+    padding: 3px;
+    background: #f0f0f0;
+    border: #007bff 1px solid;
+    border-top: none;
+
+}
+
+
+#suggestion-list li:hover{
+    background:#ece3d2;
+    cursor: pointer;
+}
+
+div.subfilter{
+    width: 75%;
+    height: 80%;
+    margin-left: 20px;
+}
+ul,li{
+    list-style: none;
+}
+.seeMore{
+    text-align: center;
+}
+.seeMore button{
+    margin-top: 8px;
+    cursor: pointer;
+    width: 10%;
+    background-color: #6f94d1;
+    border: none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+    padding: 2px;
+    box-shadow: -2px 4px 18px #6b6b6b;
+}
+.seeMore span#more:after{
+    content: '\21E9';
+}
+.seeMore span#less:after{
+    content: '\21E7';
+}
+.seeMore button:active{
+    box-shadow: 0 0 5px #666;
+    transform: translateY(1px);
+}

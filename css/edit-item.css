@@ -1,0 +1,73 @@
+html {
+  scroll-behavior: smooth;
+}
+#backToTop{
+    display: none;
+    /*display: block;*/
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background-color: #ff6333;
+    bottom: 30px;
+    right: 20px;
+    border-radius: 50%;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    opacity: .8;
+}
+#backToTop:hover{
+    opacity: 1;
+
+}
+
+#itemsShow a{
+    text-decoration: none;
+}
+.del {
+    color:#9c0a00;
+}
+.del:hover {
+    color:red;
+    font-size: 17px;
+}
+.err-show{
+    color: red;
+}
+.msg-show{
+    color: green;
+}
+input#delete1{
+    background-color: #f4511e;
+
+}
+input#edit1{
+    background-color: #1a994f;
+}
+input#edit1,input#delete1{
+    width: 35%;
+    border-radius: 8px;
+    border:none;
+    color: #FFFFFF;
+}
+div#butt{
+    text-align: center;
+
+}
+input#edit1:hover,input#delete1:hover{
+    cursor: pointer;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index:9999;
+}
+.opts1-list{
+    position: sticky;
+    left: 0;
+    width: 17%;
+}
+br.clear{
+    clear: both;
+}
