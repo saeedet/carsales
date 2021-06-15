@@ -1,4 +1,4 @@
-/*@font-face {
+@font-face {
   font-family: Oswald-Regular;
   src: url('../fonts/oswald/Oswald-Regular.ttf');
 }
@@ -12,8 +12,6 @@
   font-family: Oswald-Bold;
   src: url('../fonts/oswald/Oswald-Bold.ttf');
 }
-*/
-
 
 * {
     margin: 0px;
@@ -21,11 +19,6 @@
     box-sizing: border-box;
 }
 
-/*body {
-    padding: 0;
-    margin: 0;
-    background: #ffffff;
-}*/
 body, html {
     height: 100%;
     font-family: Oswald-Regular, sans-serif;
@@ -57,12 +50,7 @@ br.clear{
 }
 
 /*------------------------------------------------------------ header section ---*/
-.ad-container{
-/*    height: 280px;
-    max-height:
-    display: block;
-    position: absolute;*/
-}
+
 .ad-h{
     /*color: #450414;*/
     color: white;
@@ -79,9 +67,7 @@ br.clear{
 }
 .ad-h{
     padding-top: 10px;
-    /*color: black;*/
     font-weight: bold;
-    /*font-size: 50px;*/
 }
 .logIn{
     color: green;
@@ -92,12 +78,12 @@ br.clear{
 #searchBtn:focus{
     outline: none;
 }
-
 #sellBtn:focus{
     outline: none;
 
 }
 .header {
+    margin-top: 0;
     background-image: url('../images/header-background5.jpg');
     background-size: cover;
     background-position: center;
@@ -115,11 +101,9 @@ br.clear{
     background: rgba(0, 0, 0, 0.6);
 }
 .overlay2 {
-    /*min-height: 100%;*/
     min-width: 100%;
     background: rgba(0, 0, 0, 0.6);
     position: absolute;
-    /*height: 250px;*/
 }
 
 
@@ -161,7 +145,6 @@ br.clear{
     border-radius: 8px;
     min-height: 150px;
     left: 50%;
-    /*position: absolute;*/
     top: 45%;
     padding: 20px 30px;
     text-align: center;
@@ -176,10 +159,8 @@ br.clear{
 }
 
 .submit-button {
-    margin-top: 10px;
     cursor: pointer;
     min-width: 200px;
-    /*height: 37px;*/
     font-size: 16px;
     padding: 15px 20px;
     color: #fff;
@@ -205,7 +186,6 @@ br.clear{
 }
 .submit-button span:after {
 
-    /*content: '\00bb';*/
     content: '\26D0';
     position: absolute;
     opacity: 0;
@@ -243,16 +223,6 @@ br.clear{
     border-radius: 3px;
     display: block;
 }
-
-/*.search-form-box-item-inner input {
-    border: none;
-    position: relative;
-    margin-right: 20px;
-}
-
-.search-form-box-item-inner input:focus {
-    outline-color: transparent;
-}*/
 
 .search-form-box-footer {
     font-size: 12px;
@@ -294,7 +264,6 @@ select {
 
 .container-header {
     margin-top: 20px;
-    /*display: block;*/
     position: relative;
     float: left;
     display: inline-block !important;
@@ -314,14 +283,12 @@ select {
     height: 270px;
     display: block;
     background-attachment: fixed;
-    /*background-color: #222629;*/
 }
-.ad-box {
+.ad-boxx {
     border: 1px solid white;
     border-radius: 8px;
     min-height: 100px;
     left: 50%;
-    /*position: relative;*/
     top: 45%;
     padding: 20px 30px;
     text-align: center;
@@ -355,7 +322,6 @@ select {
 }
 
 .footer-icons ul {
-    /*display: inline-block;*/
     display: block;
     padding-left: 0;
     margin-bottom: 0;
@@ -390,7 +356,5 @@ select {
     color: #fff;
 }
 
-
-/*search result page*/
 
 

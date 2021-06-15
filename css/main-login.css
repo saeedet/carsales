@@ -1,10 +1,3 @@
-
-
-
-
-/*//////////////////////////////////////////////////////////////////
-[ FONT ]*/
-
 @font-face {
   font-family: Oswald-Regular;
   src: url('../fonts/oswald/Oswald-Regular.ttf');
@@ -67,9 +60,7 @@ body, html {
 
 /*---------------------------------------------*/
 a {
-	/*font-family: Oswald-Regular;*/
-	font-size: 14px;
-	line-height: 1.7;
+	font-family: Oswald-Regular;
 	color: #666666;
 	margin: 0px;
 	transition: all 0.4s;

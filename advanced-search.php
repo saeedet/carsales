@@ -5,7 +5,7 @@ include("./ex/advanced-search-header.php");
 <html>
 <head>
     <title></title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/main-ad-search.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
@@ -284,14 +284,14 @@ include("./ex/advanced-search-header.php");
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <h6 class="text-uppercase font-weight-bold">Project Information</h6>
-                    <p>This carsales website is designed from the scratch for the final project of the subject MTS9307 undertaken by Saeed ET for the course of Master of Information Technology. 100% typed codes and no copy and paste is used during the processes of designing front-end and back-end.</p>
+                    <p>This carsales website is designed from the scratch for the final project of the subject MTS9307.</p>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12" id="contactMe">
                     <h6 class="text-uppercase font-weight-bold">Contact</h6>
                     <p>18 Binda street, Keiraville, NSW, Australia
-                    <br/>Se383@uowmail.edu.au
-                    <br/>+ 61 423 274 765
-                    <br/>+ 61 423 274 765
+                    <br/>SSSSS@uowmail.edu.au
+                    <br/>+ 61 444 244 444
+                    <br/>+ 61 444 244 444
                     </p>
                 </div>
                 <div class="col-lg-2 col-md-2 col-sm-12 footer-icons">

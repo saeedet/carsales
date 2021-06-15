@@ -11,7 +11,7 @@ include("sql/sql_functions.php");
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Links to required pages -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./css/main.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 
@@ -58,7 +58,7 @@ include("sql/sql_functions.php");
         </div>
     </nav>
     <!--------------------------------------------------- header -------------------------------------------->
-    <header class="page-header header container-fluid">
+    <header class=" header container-fluid">
         <div class="overlay"></div>
         <div class="search-container">
             <div class="search-box">
@@ -175,38 +175,23 @@ include("sql/sql_functions.php");
             </div>
         </div>
     </header>
-
-
-
-    <!-- -----------------------------------------SELL SECTION----------------------------------------------- -->
     <div class="ad-container">
         <div class="overlay2"></div>
         <div class="search-container">
             <h2 class="ad-h">Sell your Old one!</h2>
             <div class="search-box2">
                 <form method="post" action="ad_insert.php">
-                    <div>
+                    <div class="ad-boxx">
                         <div class="ad-submit">
                             <button type="submit" class="submit-button" id="sellBtn">
                                 <span>Sell my car</span>
                             </button>
                         </div>
                     </div>
+
                 </form>
             </div>
         </div>
-
-<!--             <div class="search-box2">
-                <form method="post" action="ad_insert.php">
-                    <div class="ad-box">
-                        <div class="ad-submit">
-                            <button type="submit" class="submit-button" id="sellBtn">
-                                <span>Sell my car</span>
-                            </button>
-                        </div>
-                    </div>
-                </form>
-            </div> -->
     </div>
 <!------------------------------------------------ Footer ----------------------------------------------------------->
     <footer class="page-footer">
@@ -214,19 +199,16 @@ include("sql/sql_functions.php");
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <h6 class="text-uppercase font-weight-bold">Project Information</h6>
-                    <p>This carsales website is designed from the scratch for the final project of the subject MTS9307 undertaken by Saeed ET for the course of Master of Information Technology.</p>
-
+                    <p>This carsales website is designed from the scratch for the final project of the subject MTS9307.</p>
                 </div>
-
                 <div class="col-lg-4 col-md-4 col-sm-12" id="contactMe">
                     <h6 class="text-uppercase font-weight-bold">Contact</h6>
                     <p>18 Binda street, Keiraville, NSW, Australia
-                    <br/>Se383@uowmail.edu.au
-                    <br/>+ 61 423 274 765
-                    <br/>+ 61 423 274 765
+                    <br/>SSSSS@uowmail.edu.au
+                    <br/>+ 61 444 244 444
+                    <br/>+ 61 444 244 444
                     </p>
                 </div>
-
                 <div class="col-lg-2 col-md-2 col-sm-12 footer-icons">
                     <h6 class="text-uppercase font-weight-bold">Follow us</h6>
                     <ul>
@@ -249,12 +231,11 @@ include("sql/sql_functions.php");
                 </div>
             </div>
             <div class="footer-copyright text-center">© 2020 Copyright. All rights reserved!<br>Designed by: <a href="#">Saeed ET</a></div>
-      <!-- <div class="footer-copyright text-center">Designed by: Saeed ET</div> -->
         </div>
     </footer>
 <!--------------------------- including javascript pages --------------------------->
     <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <!-- <script type="text/javascript" src="js/bootstrap.js"></script> -->
     <script type="text/javascript" src="js/main.js"></script>
 
 </body>
